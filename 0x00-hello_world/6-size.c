@@ -1,4 +1,4 @@
-#include <stdio.h>#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -7,6 +7,7 @@
  */
 int main(void)
 {
-printf("Size of char:  %i 1 byte(s)\n", sizeof(char)) 
+printf("Size of char:  %i 1 byte(s)\n", sizeof(char))
+printf("Size of int:  %i 1 byte(s)\n", sizeof(int))
 return (0);
 }
