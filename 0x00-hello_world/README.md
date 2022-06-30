@@ -4,3 +4,4 @@ script that generates the assembly code of a C code and save it in an output fil
 script that compiles a C file and creates an executable named cisfun
 
 Script that prints a string with function puts
+C program that prints with function printf
