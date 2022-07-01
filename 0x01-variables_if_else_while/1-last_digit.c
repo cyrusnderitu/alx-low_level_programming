@@ -5,8 +5,19 @@
 /* betty style doc for function main goes there */
 int main(void) 
 {
+int n;
 srand(time(0));
-int n = rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 /* your code goes there */
+if (n > 0){
+    printf("%d", rand_num);
+    printf(" is Positive");
+}else if(n < 0){
+    printf("%d", rand_num);
+    printf(" is Negative");
+}else{
+    printf("%d", rand_num);
+    printf(" is Zero");
+}
 return (0);
 }
