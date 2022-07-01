@@ -18,19 +18,19 @@ if (last_digit > 5)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf(" and is greater than 5");
+printf(" and is greater than 5\n");
 }
 else if (last_digit < 6 && last_digit != 0)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf(" and is less than 6 and not 0");
+printf(" and is less than 6 and not 0\n");
 }
 else if (last_digit == 0)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf(" and is 0");
+printf(" and is 0\n");
 }
 else
 {
