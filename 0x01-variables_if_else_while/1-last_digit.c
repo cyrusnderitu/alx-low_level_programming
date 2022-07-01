@@ -3,10 +3,10 @@
 #include <time.h>
 
 /**
- * main - Entry point
- * Description: 'the program's description'
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* Description: 'the program's description'
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n, last_digit;
@@ -18,19 +18,19 @@ if (last_digit > 5)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf("and is greater than 5\n");
+printf(" and is greater than 5\n");
 }
 else if (last_digit < 6)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf("and is less than 6 and not 0\n");
+printf(" and is less than 6 and not 0\n");
 }
 else if (last_digit == 0)
 {
 printf("Last digit of %d", n);
 printf(" is %d", last_digit);
-printf("and is 0\n");
+printf(" and is 0\n");
 }
 else
 {
