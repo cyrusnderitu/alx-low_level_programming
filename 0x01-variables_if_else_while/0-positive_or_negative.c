@@ -12,13 +12,13 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0){
     printf("%d", n);
-    printf(" is Positive");
+    printf(" is Positive\n");
 }else if(n < 0){
     printf("%d", n);
-    printf(" is Negative");
+    printf(" is Negative\n");
 }else{
     printf("%d", n);
-    printf(" is Zero");
+    printf(" is Zero\n");
 }
 return (0);
 }
