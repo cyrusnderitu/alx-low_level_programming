@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-const char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-syscall(SYS_write, 1, msg, sizeof(msg));
+const char msg[] = "and that piece of art is useful\"-Dora Korpar, 2015-10-19";
+syscall(SYS_write, msg);
 return (0);
 }
