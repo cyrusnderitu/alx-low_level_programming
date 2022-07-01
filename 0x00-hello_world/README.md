@@ -6,3 +6,4 @@ script that compiles a C file and creates an executable named cisfun
 Script that prints a string with function puts
 C program that prints with function printf
 C program that prints the size of various types on the computer it is compiled and run on
+script that generates the assembly code (Intel syntax) of a C code and save it in an output file

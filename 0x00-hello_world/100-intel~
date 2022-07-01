@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc $CFILE -o 7-main.s
