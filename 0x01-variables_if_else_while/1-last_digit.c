@@ -9,24 +9,34 @@
  */
 int main(void)
 {
-int n;
+int n, last_digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
+last_digit = n % 10
 /* your code goes there */
-if (n > 0)
+if (last_digit > 5)
 {
+printf("Last digit of")
 printf("%d", n);
-printf(" is positive\n");
+printf(" is %d", last_digit);
+printf("and is greater than 5\n");
 }
-else if (n < 0)
+else if (last_digit < 6)
 {
+printf("Last digit of")
 printf("%d", n);
-printf(" is negative\n");
+printf(" is %d", last_digit);
+printf("and is less than 6 and not 0\n");
+}
+else if (last_digit = 0)
+{
+printf("Last digit of")
+printf("%d", n);
+printf(" is %d", last_digit);
+printf("and is 0\n");
 }
 else
 {
-printf("%d", n);
-printf(" is zero\n");
-}
 return (0);
+}
 }
