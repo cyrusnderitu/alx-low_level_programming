@@ -34,6 +34,8 @@ printf("and is 0\n");
 }
 else
 {
-return (0);
+printf("Last digit of %d", n);
+printf(" is %d", last_digit);
 }
+return (0);
 }
