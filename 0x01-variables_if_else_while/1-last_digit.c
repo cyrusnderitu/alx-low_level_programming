@@ -36,5 +36,7 @@ printf(" is %d", last_digit);
 printf("and is 0\n");
 }
 else
+{
 return (0);
+}
 }
