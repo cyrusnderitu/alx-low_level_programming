@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
- * main - print all alphabet in lowercase
- * followed by a new line, except q and e
- * Return Always 0 (Success)
+ * main - Entry point
+ * Description: 'the program's description'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
