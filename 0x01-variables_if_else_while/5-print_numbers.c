@@ -15,6 +15,6 @@ do
   i++;
 }
  while(i< 10);
- putchar("\n");
+ putchar('\n');
  return (0);
 }
