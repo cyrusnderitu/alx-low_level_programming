@@ -19,7 +19,7 @@ putchar((num % 10) + '0');
 }
 for (letter = 'A'; letter <= 'F'; letter++)
 {
-putchar(tolower(letter))
+putchar(tolower(letter));
 }
 putchar('\n');
 return (0); 
