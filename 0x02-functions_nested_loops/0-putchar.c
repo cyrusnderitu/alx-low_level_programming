@@ -2,8 +2,8 @@
 #include <ctype.h>
 
 /**
- * main - A progam that prints
- * Return Always 0 (Success)
+ * main - A progam that prints putchar
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
