@@ -6,7 +6,7 @@
  */
 void print_alphabet(void)
 {
-for (c = 97; c < 122; c++)
+for (int c = 'A'; c < 'Z'; c++)
 _purchar(tolower(c));
 _putchar('\n');
 return (0);
