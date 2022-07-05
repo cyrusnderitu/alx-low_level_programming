@@ -12,7 +12,7 @@ putchar('p');
 putchar('u');
 putchar('t');
 putchar('c');
-putchat('h');
+putchar('h');
 putchar('a');
 putchar('r');
 return (0);
