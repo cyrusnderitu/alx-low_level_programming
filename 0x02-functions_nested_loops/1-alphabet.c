@@ -6,8 +6,10 @@
  */
 void print_alphabet(void)
 {
-for (int c = 'A'; c < 'Z'; c++)
-_purchar(tolower(c));
-_putchar('\n');
+char c = 'a';
+while(c <= 'z')
+_putchar(c)
+c++
+_putchar('\n')
 return (0);
 }
