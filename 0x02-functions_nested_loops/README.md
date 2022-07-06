@@ -5,3 +5,4 @@ a function that prints 10 times the alphabet, in lowercase, followed by a new li
 a function that checks for lowercase characte
 
 a function that checks for alphabetic character
+a function that prints the sign of a number
