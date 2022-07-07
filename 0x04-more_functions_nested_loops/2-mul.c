@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- *_ismul - Print product of two digits from (a - b)
+ * mul - Multiples two integers.
+ * @a: The first integer to be multiplied.
+ * @b: The second integer to be multiplied.
  *
- * Return: Product of two digits
+ * Return: The result of the multiplication.
  */
 int mul(int a, int b)
 {
