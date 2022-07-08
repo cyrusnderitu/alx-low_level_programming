@@ -3,13 +3,17 @@
 /**
  * print_most_numbers -  Print numbers excluding 2 and 4
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-int num;
-for (num = 0; num <= 9; num++)
+int num, count;
+for (count = 0; count <= 9; count++)
 {
-if (num != 2 && num != 4)
+for (num = 0; num <= 14; num++)
+{
+if (num > 9)
+_putchar((num / 10) + '0');
 _putchar((num % 10) + '0');
 }
 _putchar('\n');
+}
 }
