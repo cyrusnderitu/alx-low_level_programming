@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers -  Print numbers excluding 2 and 4
+ * more_numbers-  Prints the numbers 0-14 ten times
  */
 void more_numbers(void)
 {
