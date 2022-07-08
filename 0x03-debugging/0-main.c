@@ -7,6 +7,10 @@
  */
 void positive_or_negative(int i) 
 {
-if(i == 0)
-  return ("0 is zero"); 
+        int i;
+
+        i = 98;
+        positive_or_negative(i);
+
+        return (0);
 }
