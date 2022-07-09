@@ -8,3 +8,4 @@ a function that draws a straight line in the terminal
 a function that draws a diagonal line on the terminal
 a function that prints a square, followed by a new line
  a program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz
+a function that prints a triangle, followed by a new line
