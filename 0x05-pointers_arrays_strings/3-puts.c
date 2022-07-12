@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ * _puts - prints a string, followed by a new line
+ * @str: iterate string and print
+ * Return: Always 0 (Success)
+ */
+void _puts(char *str)
+{
+  return (0);
+}
