@@ -30,6 +30,7 @@ index == 0)
 str[index] -= 32;
 index++;
 }
+_putchar('\n')
 }
 return (str);
 }
