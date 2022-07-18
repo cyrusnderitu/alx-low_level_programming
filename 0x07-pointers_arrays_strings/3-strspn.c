@@ -21,5 +21,6 @@ break;
 }
 s++;
 }
+}
 return (size);
 }
