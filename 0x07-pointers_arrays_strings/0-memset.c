@@ -8,8 +8,9 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
+char *storage = s;
 int index;
 for (index = 0; index < n; index++)
-s[index] = b;
+storage[index] = b;
 return (s);
 }
