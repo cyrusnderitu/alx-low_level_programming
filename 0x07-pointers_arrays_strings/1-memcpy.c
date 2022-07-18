@@ -9,6 +9,7 @@
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+while(src)
 unsigned int index;
 for (index = 0; index < n; index++)
 {
