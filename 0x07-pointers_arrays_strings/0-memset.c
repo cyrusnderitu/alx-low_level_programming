@@ -15,5 +15,5 @@ for (index = 0; index < n; index++)
 {
 store[index] = value;
 }
-return (s);
+return (store);
 }
