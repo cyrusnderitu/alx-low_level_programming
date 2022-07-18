@@ -21,8 +21,8 @@ break;
 }
 else if (accept[index + 1] == '\0')
 return (size);
-s++;
 }
+s++;
 }
 return (size);
 }
