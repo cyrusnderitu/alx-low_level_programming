@@ -20,7 +20,7 @@ size++;
 break;
 }
 else if (accept[index + 1] == '\0')
-return (bytes);
+return (size);
 s++;
 }
 }
