@@ -14,5 +14,5 @@ if (s[index] == c)
 {
 return (s + index);
 }
-return (Null);
+return ('\0');
 }
