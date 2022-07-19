@@ -19,4 +19,3 @@ _putchar(a[i / 8][i - m]);
 }
 _putchar('\n');
 }
-
