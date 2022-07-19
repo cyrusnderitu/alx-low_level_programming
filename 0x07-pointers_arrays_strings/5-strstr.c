@@ -15,7 +15,7 @@ return (haystack);
 }
 while (haystack[index++])
 {
-if (needle[index] == haystack[index])
+if (haystack[index] == needle[index])
 {
 return (haystack + index);
 }
