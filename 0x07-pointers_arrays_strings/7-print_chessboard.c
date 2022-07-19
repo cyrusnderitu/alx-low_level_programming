@@ -7,15 +7,15 @@
 */
 void print_chessboard(char (*a)[8])
 {
-unsigned int i, m = 0;
-for (i = 0; i < 64; i++)
+unsigned int col, row = 0;
+for (col = 0; col < 64; col++) // Total number is 8 column items (r,k,b,q,k,b,k,r) in 8 row = 8 * 8 = 64
 {
-if (i % 8 == 0 && i != 0)
+if (col % 8 == 0 && col != 0) // Once it reaches the 8th column item (r,k,b,q,k,b,k,r) it should move to next line
 {
-m = i;
+row = col;
 _putchar('\n');
 }
-_putchar(a[i / 8][i - m]);
+_putchar(a[col / 8][col - row]);
 }
 _putchar('\n');
 }
