@@ -3,6 +3,7 @@
 /**
 * print_chessboard - function that prints the chessboard
 * @a: Pointer to the content of each column of array
+* Return: Zero return
 */
 void print_chessboard(char (*a)[8])
 {
