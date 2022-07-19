@@ -10,7 +10,9 @@ int outer, inner;
 for (outer = 0; a[outer][7]; outer++)
 {
 for (inner = 0; inner < 8; inner++)
+{
 _putchar(a[outer][inner]);
+}
 _putchar('\n');
 }
 }
