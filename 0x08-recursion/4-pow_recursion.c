@@ -14,7 +14,7 @@ return (-1);
 }
 else
 {
-x = x ** y;
+int x = x ** y;
 return (x);
 }
 }
