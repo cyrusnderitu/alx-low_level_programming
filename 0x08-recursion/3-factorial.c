@@ -17,7 +17,7 @@ return (1);
 }
 else
 {
-int ans = n*factorial(n-1);
+int ans = n * factorial(n-1);
 return (ans);
 }
 }
