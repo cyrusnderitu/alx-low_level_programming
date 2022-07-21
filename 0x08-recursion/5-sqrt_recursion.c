@@ -14,7 +14,7 @@ return (rt);
 }
 else
 {
-return (calc_sqrt(n, rt +1));
+return (calc_sqrt(n, rt + 1));
 }
 }
 /**
