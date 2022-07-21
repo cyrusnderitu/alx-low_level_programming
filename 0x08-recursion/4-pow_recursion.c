@@ -14,6 +14,7 @@ return (-1);
 }
 else
 {
-return (x * *= y);
+x = x ** y;
+return (x);
 }
 }
