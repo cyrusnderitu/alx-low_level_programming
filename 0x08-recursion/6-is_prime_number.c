@@ -37,6 +37,6 @@ return (1);
 }
 else
 {
-return (is_divisible(n, div));
+return (prime_check(n, div));
 }
 }
