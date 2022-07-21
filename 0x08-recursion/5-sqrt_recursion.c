@@ -20,6 +20,12 @@ else
 return (_calc_sqrt(n, rt + 1));
 }
 }
+/**
+ * _sqrt_recursion - finding sqrt with recursion
+ * @n: The number to sqrt.
+ * Return: -1 if number is not natural number or
+ * the root if number is natural.
+ */
 int _sqrt_recursion(int n)
 {
 int root = 0;
