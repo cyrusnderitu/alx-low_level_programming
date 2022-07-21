@@ -11,13 +11,13 @@ int _calc_sqrt(int n, int rt);
  */
 int _calc_sqrt(int n, int rt)
 {
-if (rt * rt == num)
+if (rt * rt == n)
 {
 return (rt);
 }
 else
 {
-return (calc_sqrt(n, rt + 1));
+return (_calc_sqrt(n, rt + 1));
 }
 }
 int _sqrt_recursion(int n)
@@ -34,4 +34,5 @@ return (1);
 else
 {
 return (_calc_sqrt(n, root));
+}
 }
