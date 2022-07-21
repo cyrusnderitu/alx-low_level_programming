@@ -13,7 +13,7 @@ if (digit % div == 0)
 {
 return (0);
 }
-else if (div == num / 2)
+else if (div == digit / 2)
 {
 return (1);
 }
