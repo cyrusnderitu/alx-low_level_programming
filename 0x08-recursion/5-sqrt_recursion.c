@@ -1,5 +1,6 @@
 #include "main.h"
 
+int calc_sqrt(int n, int rt);
 /**
  * _sqrt_recursion - finding sqrt with recursion
  * calc_sqrt - calculates how to get root.
@@ -32,5 +33,5 @@ return (1);
 }
 else
 {
-return(calc_sqrt(n, root));
+return (calc_sqrt(n, root));
 }
