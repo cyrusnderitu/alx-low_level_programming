@@ -17,6 +17,12 @@ else
 return (calc_sqrt(n, rt +1));
 }
 }
+/**
+ * calc_sqrt - calculates how to get root.
+ * @rt: int multiplied to itself to see if it == n.
+ * Return: rt if number is == n or
+ * return back to its function but with an increment.
+ */
 int _sqrt_recursion(int n)
 {
 int root = 0;
