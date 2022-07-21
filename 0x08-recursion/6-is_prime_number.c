@@ -13,6 +13,10 @@ if (digit % div == 0)
 {
 return (0);
 }
+else if (div == num / 2)
+{
+return (1);
+}
 else
 {
 return (prime_check(digit, div + 1));
@@ -24,8 +28,8 @@ return (prime_check(digit, div + 1));
  * Return: If the integer is not prime - 0.
  *         If the number is prime - 1.
  */
-int is_prime_number(int n)  
-{  
+int is_prime_number(int n)
+{
 int div = 2;
 if (n <= 1)
 {
