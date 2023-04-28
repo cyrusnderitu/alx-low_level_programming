@@ -13,6 +13,11 @@ list_t *last_node = malloc(sizeof(list_t));
 int i = 0;
 if (last_node == NULL)
 return (NULL);
+if (str == NULL)
+{
+free(last_node);
+return (NULL);
+}
 while (str[i] != '\0')
 i++;
 last_node->str = strdup(str);
