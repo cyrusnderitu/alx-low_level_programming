@@ -9,6 +9,7 @@
 int main(int argc, char *argv[])
 {
 int num1, num2, result, i = 0;
+int (*op_func)(int, int);
 char *op;
 char err[] = "Error";
 if (argc != 4)
@@ -26,7 +27,8 @@ while (err[i] != '0')
 _putchar(err[i++]);
 exit(100);
 }
-result = get_op_func(op)(num1, num2);
+op_func = get_op_func(op);
+result = op_func(num1, num2);
 _putchar(result + '0');
 _putchar('\n');
 }
