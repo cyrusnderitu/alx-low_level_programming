@@ -7,6 +7,7 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
+int i = 0;
 op_t ops[] = {
         {"+", op_add},
         {"-", op_sub},
@@ -21,7 +22,11 @@ op_t ops[] = {
 	    if (ops[i].op[0] == s)
 		    return ops[i].f;
 	    else
-		    exit(99);
+	    {
+		while (err[i] != '0')
+		_putchar(err[i++]);
+		exit(99);
+	    }
     }
     return (NULL);
 }
