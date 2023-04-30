@@ -1,16 +1,17 @@
 #include "3-calc.h"
 
 /**
- *
- *
- *
+ * main - main function to run ops
+ * @argc - count of argv
+ * @argv - array of values passed on func call
+ * Return: Always success(0) else (-1) or NULL
  */
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
-	int num1, num2, result, i;
+	int num1, num2, result, i = 0;
 	char *op;
 	char err[] = "Error";
-	if (argc > 4)
+	if (argc != 4)
 		_putchar(err);
 		exit(98);
 	op = argv[2];
