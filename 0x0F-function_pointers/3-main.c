@@ -12,9 +12,11 @@ int main(int argc, char *argv[])
 	char *op;
 	char err[] = "Error";
 	if (argc != 4)
+	{
 		while (err[i] != '0')
 		_putchar(err[i++]);
 		exit(98);
+	}
 	op = argv[2];
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
@@ -24,7 +26,7 @@ int main(int argc, char *argv[])
 		_putchar(err[i++]);
 		exit(100);
 	}
-	result = get_op_funct(op)(num1, num2);
+	result = get_op_func(op)(num1, num2);
 	_putchar(result + '0');
 	_putchar('\n');
 }
