@@ -17,7 +17,7 @@ op_t ops[] = {
         {"%", op_mod},
         {NULL, NULL}
 };
-for (i = 0; ops[i] != '\0'; i++)
+while (ops[i].op)
 {
     if (ops[i].op[0] == s[0])
 	    return ops[i].f;
@@ -27,6 +27,7 @@ for (i = 0; ops[i] != '\0'; i++)
 	_putchar(err[i++]);
 	exit(99);
     }
+i++;
 }
     return (NULL);
 }
