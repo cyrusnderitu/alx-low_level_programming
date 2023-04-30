@@ -16,19 +16,18 @@ op_t ops[] = {
         {"/", op_div},
         {"%", op_mod},
         {NULL, NULL}
-    };
-    int i;
-    for (i = 0; ops[i] != '\0'; i++)
+};
+for (i = 0; ops[i] != '\0'; i++)
+{
+    if (ops[i].op[0] == s[0])
+	    return ops[i].f;
+    else
     {
-	    if (ops[i].op[0] == s[0])
-		    return ops[i].f;
-	    else
-	    {
-		while (err[i] != '0')
-		_putchar(err[i++]);
-		exit(99);
-	    }
+	while (err[i] != '0')
+	_putchar(err[i++]);
+	exit(99);
     }
+}
     return (NULL);
 }
 
