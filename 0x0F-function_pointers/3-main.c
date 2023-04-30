@@ -12,7 +12,8 @@ int main(int argc, char *argv[])
 	char *op;
 	char err[] = "Error";
 	if (argc != 4)
-		_putchar(err);
+		while (err[i] != '0')
+		_putchar(err[i++]);
 		exit(98);
 	op = argv[2];
 	num1 = atoi(argv[1]);
