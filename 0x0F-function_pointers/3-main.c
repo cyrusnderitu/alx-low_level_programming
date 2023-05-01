@@ -48,6 +48,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	ans = op_func(num1, num2);
-	_putchar(ans +'0');
+	putchar(ans +'0');
 	return (0);
 }
