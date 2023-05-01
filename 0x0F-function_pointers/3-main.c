@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	int num1, num2, ans, i;
 	int (*op_func)(int, int);
 	char *op;
-	char err[] = "Error"
+	char err[] = "Error";
 
 	if (argc != 4)
 	{
@@ -49,6 +49,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	ans = op_func(num1, num2);
-	_putchar(ans +'0')
+	_putchar(ans +'0');
 	return (0);
 }
