@@ -10,3 +10,14 @@ int op_add(int a, int b)
 {
 	return (a + b);
 }
+
+/**
+ * op_sub - calc sub for two int
+ * @a: first int
+ * @b: second int
+ * Return: sub of two int
+ */
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
