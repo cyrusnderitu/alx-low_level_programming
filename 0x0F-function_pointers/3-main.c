@@ -1,6 +1,19 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+
+void print_error()
+{
+int i = 0;
+char err[] = "Error"
+while (err[i] != '\0'
+{
+	_putchar(err[i]);
+	i++;
+}
+_putchar('\n');
+}
+
 /**
  * main - return result of desired calculation from command line options
  * @argc: number of command line arguments
@@ -16,12 +29,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		i = 0;
-		while(err[i] != '\0')
-		{
-		_putchar(err[i]);
-		i++;
-		}
+		print_error;
 		exit(98);
 	}
 	op = argv[2];
@@ -29,23 +37,13 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[3]);
 	if ((op[0] == '/' || op[0] == '%') && num2 == 0)
 	{
-		i = 0;
-		while(err[i] != '\0')
-		{
-		_putchar(err[i]);
-		i++;
-		}
+		print_error;
 		exit(100);
 	}
 	op_func = get_op_func(op);
 	if (op_func == NULL)
 	{
-		i = 0;
-		while(err[i] != '\0')
-		{
-		_putchar(err[i]);
-		i++;
-		}
+		print_error;
 		exit(99);
 	}
 	ans = op_func(num1, num2);
