@@ -8,7 +8,6 @@
 int (*get_op_func(char *s))(int, int)
 {
 int i = 0;
-char err[] = "Error";
 op_t ops[] = {
         {"+", op_add},
         {NULL, NULL}
