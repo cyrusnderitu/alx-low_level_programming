@@ -31,4 +31,5 @@ op_func = get_op_func(op);
 result = op_func(num1, num2);
 _putchar(result + '0');
 _putchar('\n');
+exit(EXIT_SUCCESS);
 }
