@@ -22,14 +22,12 @@ _putchar('\n');
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, ans, i;
+	int num1, num2, ans;
 	int (*op_func)(int, int);
 	char *op;
-	char err[] = "Error";
-
 	if (argc != 4)
 	{
-		print_error;
+		print_error();
 		exit(98);
 	}
 	op = argv[2];
@@ -37,13 +35,13 @@ int main(int argc, char *argv[])
 	num2 = atoi(argv[3]);
 	if ((op[0] == '/' || op[0] == '%') && num2 == 0)
 	{
-		print_error;
+		print_error();
 		exit(100);
 	}
 	op_func = get_op_func(op);
 	if (op_func == NULL)
 	{
-		print_error;
+		print_error();
 		exit(99);
 	}
 	ans = op_func(num1, num2);
