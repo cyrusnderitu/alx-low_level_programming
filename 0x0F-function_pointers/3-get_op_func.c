@@ -19,8 +19,7 @@ while (ops[i].op)
 	    return ops[i].f;
     else
     {
-	while (err[i] != '0')
-	_putchar(err[i++]);
+	printf("Error\n");
 	exit(99);
     }
 i++;
