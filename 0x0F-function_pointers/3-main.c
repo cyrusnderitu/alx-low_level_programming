@@ -2,16 +2,19 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+* print_error - prints errors
+*/
 void print_error()
 {
 int i = 0;
 char err[] = "Error";
 while (err[i] != '\0')
 {
-	_putchar(err[i]);
+	putchar(err[i]);
 	i++;
 }
-_putchar('\n');
+putchar('\n');
 }
 
 /**
