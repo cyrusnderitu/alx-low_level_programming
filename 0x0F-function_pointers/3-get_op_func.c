@@ -11,10 +11,6 @@ int i = 0;
 char err[] = "Error";
 op_t ops[] = {
         {"+", op_add},
-        {"-", op_sub},
-        {"*", op_mul},
-        {"/", op_div},
-        {"%", op_mod},
         {NULL, NULL}
 };
 while (ops[i].op)
