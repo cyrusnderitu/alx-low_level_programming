@@ -5,34 +5,50 @@
  * main - return result of desired calculation from command line options
  * @argc: number of command line arguments
  * @argv: array of command line arguments
- * Return: EXIT_FAILURE if unsuccessful or EXIT_SUCCESS if success.
+ * Return: Always success(0) else (-1).
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, calc;
+	int num1, num2, ans, i;
 	int (*op_func)(int, int);
-	char *operator;
+	char *op;
+	char err[] = "Error"
 
 	if (argc != 4)
 	{
-		printf("Error\n");
+		i = 0;
+		while(err[i] != '\0')
+		{
+		_putchar(err[i]);
+		i++;
+		}
 		exit(98);
 	}
-	operator = argv[2];
+	op = argv[2];
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
-	if ((operator[0] == '/' || operator[0] == '%') && num2 == 0)
+	if ((op[0] == '/' || op[0] == '%') && num2 == 0)
 	{
-		printf("Error\n");
+		i = 0;
+		while(err[i] != '\0')
+		{
+		_putchar(err[i]);
+		i++;
+		}
 		exit(100);
 	}
-	op_func = get_op_func(operator);
+	op_func = get_op_func(op);
 	if (op_func == NULL)
 	{
-		printf("Error\n");
+		i = 0;
+		while(err[i] != '\0')
+		{
+		_putchar(err[i]);
+		i++;
+		}
 		exit(99);
 	}
-	calc = op_func(num1, num2);
-	printf("%d\n", calc);
-	exit(EXIT_SUCCESS);
+	ans = op_func(num1, num2);
+	_putchar(ans +'0')
+	return (0);
 }
