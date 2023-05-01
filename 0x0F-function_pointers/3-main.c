@@ -5,7 +5,7 @@
 void print_error()
 {
 int i = 0;
-char err[] = "Error"
+char err[] = "Error";
 while (err[i] != '\0'
 {
 	_putchar(err[i]);
