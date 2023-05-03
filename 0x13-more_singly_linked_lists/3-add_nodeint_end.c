@@ -22,11 +22,12 @@ if (*head == NULL)
 }
 else
 {
+tmp = *head;
 while (tmp->next != NULL)
 {
 tmp = tmp->next;
 }
-}
 tmp->next = last;
+}
 return (last);
 }
